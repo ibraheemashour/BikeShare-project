@@ -115,7 +115,7 @@ def display_data(df):
 
 def main():
     city, month, day = get_filters()
-    df = load_data(city, month)
+    df = load_data(city, month,day)
 
     time_stats(df)
     station_stats(df)
